@@ -25,7 +25,7 @@ export default async function Home() {
           NEW
         </Link>
       </div>
-      {renderedSnippets}
+      <div className={"flex flex-col gap-2"}>{renderedSnippets}</div>
     </div>
   );
 }
